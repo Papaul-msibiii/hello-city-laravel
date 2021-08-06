@@ -3,7 +3,7 @@
 @section('title', 'About Us | ' . config('app.name'))
 
 @section('content')
-        <img src="/images/logos.png" alt="Logo Papaull">
+        <img src="{{ asset('images/logos.png') }}" alt="Logo Papaull">
 
         <p>Build with &hearts; by LES TEACHERS DU NET.</p>
 
