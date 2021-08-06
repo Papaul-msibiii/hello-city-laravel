@@ -5,6 +5,6 @@
 @section('content')
         <p>Build with &hearts; by LES TEACHERS DU NET.</p>
 
-        <p><a href="/">Revenir à la page d'acceuil</a></p>
+        <p><a href="{{ route('home') }}">Revenir à la page d'acceuil</a></p>
 
 @endsection
